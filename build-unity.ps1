@@ -10,7 +10,7 @@
     Write-Output "$install_dir";
     Write-Output "$source";
     Write-Output "$output";
-    dotnet run --project "$install_dir\\UnityPackageExporter" -project "$source" -output "$output" -a
+    dotnet run --project "$install_dir\\UnityPackageExporter" -project "$source" -output "$output"
 }
 
 #powershell -ExecutionPolicy ByPass -File
